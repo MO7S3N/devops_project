@@ -26,6 +26,7 @@ services:
     depends_on:
       - mysqldb
   frontend:
+    container_name: angular
     build: "Angular"
     ports:
       - 4100:4100
