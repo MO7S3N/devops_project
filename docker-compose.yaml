@@ -26,7 +26,8 @@ services:
     depends_on:
       - mysqldb
   frontend:
+    image: mohsen1998/angularachat
     container_name: angular
-    build: "Angular"
+    restart: on-failure
     ports:
       - 4100:4100
