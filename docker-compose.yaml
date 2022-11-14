@@ -25,3 +25,7 @@ services:
       - 8089:8089
     depends_on:
       - mysqldb
+  frontend:
+    build: "Angular"
+    ports:
+      - 4100:4100
