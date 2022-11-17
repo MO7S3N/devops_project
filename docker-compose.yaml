@@ -12,7 +12,7 @@ services:
      - AppNet
      
   spring-boot:
-    image: belhassen/springprojet
+    image: belhaaa/achat-1.0
     container_name: spring
     ports:
       - 8082:8082
